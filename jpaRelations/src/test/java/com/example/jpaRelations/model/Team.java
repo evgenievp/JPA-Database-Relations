@@ -5,6 +5,14 @@ import jakarta.persistence.*;
 import java.util.List;
 
 public class Team {
+    private String name;
+
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     @Entity
     public static class Team {
         @Id
